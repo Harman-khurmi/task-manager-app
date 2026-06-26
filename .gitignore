@@ -2,7 +2,7 @@
 node_modules/
 package-lock.json
 
-# Database files (local development)
+# Database files
 db/*.db
 db/*.db-shm
 db/*.db-wal
@@ -10,40 +10,14 @@ db/*.db-wal
 # Environment variables
 .env
 .env.local
-.env.example
-.env.production.local
-
-# Documentation (local only)
-BUGFIX.md
-CHANGES.md
-DEPLOYMENT_GUIDE.md
-DEPLOYMENT_SUMMARY.md
-PRE_DEPLOYMENT_CHECKLIST.md
-QUICK_START.md
-UI_IMPROVEMENTS.md
-VERCEL_STEPS.md
 
 # IDE
 .vscode/
 .idea/
-*.swp
-*.swo
-*~
 
 # OS files
 .DS_Store
 Thumbs.db
 
 # Logs
-logs/
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Build files
-dist/
-build/
-
-# Vercel
-.vercel
