@@ -10,7 +10,18 @@ db/*.db-wal
 # Environment variables
 .env
 .env.local
+.env.example
 .env.production.local
+
+# Documentation (local only)
+BUGFIX.md
+CHANGES.md
+DEPLOYMENT_GUIDE.md
+DEPLOYMENT_SUMMARY.md
+PRE_DEPLOYMENT_CHECKLIST.md
+QUICK_START.md
+UI_IMPROVEMENTS.md
+VERCEL_STEPS.md
 
 # IDE
 .vscode/
