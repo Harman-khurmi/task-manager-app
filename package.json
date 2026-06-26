@@ -1,0 +1,23 @@
+{
+  "name": "taskmaster-pro",
+  "version": "1.0.0",
+  "description": "Professional task management system built with Node.js, Express, SQLite, and modern frontend technologies - featuring responsive design, pagination, and real-time filtering",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.x"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "vercel-build": "echo 'Build complete'"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^6.0.1"
+  }
+}
